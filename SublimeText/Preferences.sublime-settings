@@ -1,0 +1,28 @@
+{
+    // Theme and scheme.
+    "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+
+    // Good looking code.
+    "font_face": "Migu 1M",
+    "font_size": 16,
+    "line_padding_top": 2,
+    "line_padding_bottom": 2,
+
+    // Coding style.
+    "rulers": [80],
+    "tab_size": 4,
+    "translate_tabs_to_spaces": false,
+    "trim_trailing_white_space_on_save": true,
+    "ensure_newline_at_eof_on_save": true,
+    "default_line_ending": "unix",
+
+    // System preferences.
+    "atomic_save": false,
+    "show_encoding": true,
+    "show_line_endings": true,
+    "scroll_past_end": true,
+
+    // Packages.
+    "ignored_packages": [],
+    "vintage_start_in_command_mode": true
+}
