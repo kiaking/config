@@ -5,8 +5,8 @@
     // Good looking code.
     "font_face": "Migu 1M",
     "font_size": 16,
-    "line_padding_top": 2,
-    "line_padding_bottom": 2,
+    "line_padding_top": 4,
+    "line_padding_bottom": 4,
 
     // Coding style.
     "rulers": [80],
