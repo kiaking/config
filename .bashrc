@@ -24,7 +24,7 @@ alias ll='ls -al'
 alias g='git'
 
 ## Shortcuts
-root='~/Dropbox'
+root='~/Code'
 alias goroot="cd ${root}"
 
 ## Generic tools
