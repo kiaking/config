@@ -11,7 +11,7 @@
     // Coding style.
     "rulers": [80],
     "tab_size": 4,
-    "translate_tabs_to_spaces": false,
+    "translate_tabs_to_spaces": true,
     "trim_trailing_white_space_on_save": true,
     "ensure_newline_at_eof_on_save": true,
     "default_line_ending": "unix",
