@@ -3,7 +3,7 @@
   email = kia.king.08@gmail.com
 
 [core]
-  excludesfile = ~/.gitignore
+  excludesfile = ~/.gitignore_global
 
 [color]
   ui=auto

@@ -1,3 +1,9 @@
+# The files that should be ignored by Git globally.
+#
+# Add this file to Git config.
+#
+# EX: git config --global core.excludesfile ~/.gitignore_global
+
 # OS or Editor folders
 ._*
 .cache
