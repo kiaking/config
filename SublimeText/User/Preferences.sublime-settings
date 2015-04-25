@@ -1,15 +1,15 @@
 {
     // Theme and scheme.
-    "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+    "theme": "Seti.sublime-theme",
+    "color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
 
     // Good looking code.
     "font_face": "Migu 1M",
     "font_size": 16,
-    "line_padding_top": 6,
-    "line_padding_bottom": 6,
+    "line_padding_top": 8,
+    "line_padding_bottom": 8,
 
     // Coding style.
-    "rulers": [80],
     "tab_size": 4,
     "translate_tabs_to_spaces": true,
     "trim_trailing_white_space_on_save": true,
@@ -17,7 +17,7 @@
     "default_line_ending": "unix",
 
     // System preferences.
-    "atomic_save": false,
+    "line_numbers": false,
     "show_encoding": true,
     "show_line_endings": true,
     "scroll_past_end": true,
