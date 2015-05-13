@@ -31,6 +31,9 @@ alias goroot="cd ${root}"
 alias phpunit='./vendor/bin/phpunit'
 alias phpspec='./vendor/bin/phpspec'
 
+## Laravel
+alias art='php artisan'
+
 # Git auto tab completion
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
