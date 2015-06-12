@@ -762,6 +762,15 @@
 		"content_margin": [7,0]
 	},
 
+	// Sidebar folder opened
+	{
+		"class": "icon_folder",
+		"parents": [{ "class": "tree_row", "attributes": ["expanded"]}],
+		"layer0.texture": "Seti_UI/Main/folder_open@2x.png",
+		"layer0.inner_margin": -5,
+		"layer0.opacity": 1,
+		"content_margin": [7,0],
+	},
 	// Options
 	{
 		"class": "icon_folder",
