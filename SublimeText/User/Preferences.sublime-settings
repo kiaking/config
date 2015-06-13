@@ -1,9 +1,10 @@
 {
     // Theme and scheme.
-    "theme": "Seti.sublime-theme",
-    "color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
+    "theme": "Material-Theme.sublime-theme",
+    "color_scheme": "Packages/User/SublimeLinter/Material-Theme (SL).tmTheme",
 
     // Good looking code.
+    "font_options": ["gray_antialias"],
     "font_face": "Migu 1M",
     "font_size": 16,
     "line_padding_top": 8,
@@ -21,6 +22,7 @@
     "show_encoding": true,
     "show_line_endings": true,
     "scroll_past_end": true,
+    "overlay_scroll_bars": "enabled",
 
     // Packages.
     "ignored_packages": [],
