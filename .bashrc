@@ -1,12 +1,12 @@
 # Get the Git branch.
-parse_git_branch() {
-  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
-}
+if [ -f /usr/local/etc/bash_completion.d/git-prompt.sh ]; then
+  . /usr/local/etc/bash_completion.d/git-prompt.sh
+fi
 
 # Custom bash prompt
 #
 # Includes custom character for the prompt, path, and Git branch name.
-PS1="\n\[\033[0;31m\]→\[\033[00m\] \[\033[0;36m\]\W\[\033[00m\]\[\033[0;33m\]\$(parse_git_branch)\[\033[00m\] \$ "
+PS1='\n\[\033[0;31m\]→\[\033[00m\] \[\033[0;36m\]\W\[\033[00m\]\[\033[0;33m\]$(__git_ps1 " (%s)")\[\033[00m\] \$ '
 
 # Export environment paths.
 export PATH="/usr/local/bin:$PATH"
@@ -35,8 +35,13 @@ alias phpspec='./vendor/bin/phpspec'
 alias art='php artisan'
 
 # Git auto tab completion
-if [ -f ~/.git-completion.bash ]; then
-  . ~/.git-completion.bash
+if [ -f /usr/local/etc/bash_completion.d/git-completion.bash ]; then
+  . /usr/local/etc/bash_completion.d/git-completion.bash
+fi
+
+# NPM auto tab completion
+if [ -f /usr/local/etc/bash_completion.d/npm ]; then
+  . /usr/local/etc/bash_completion.d/npm
 fi
 
 # Refresh rbenv
