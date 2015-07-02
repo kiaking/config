@@ -326,6 +326,8 @@
 	<string>1577 325 445 285 0 0 2560 1440 </string>
 	<key>NSWindow Frame Preferences</key>
 	<string>945 583 924 485 0 0 2560 1440 </string>
+	<key>NSWindow Frame SUStatusFrame</key>
+	<string>1088 1003 384 129 0 0 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 0 2560 1440 0 0 2560 1417 </string>
 	<key>New Bookmarks</key>
@@ -1058,6 +1060,10 @@
 			<string>/Users/kia_king</string>
 		</dict>
 	</array>
+	<key>NoSyncTimeOfLastPromo</key>
+	<real>453265897.22430402</real>
+	<key>NoSyncTimeOfLastPromoDownload</key>
+	<real>457333972.90128797</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1120,13 +1126,13 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-03-30T06:41:52Z</date>
+	<date>2015-06-30T03:51:40Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<true/>
+	<false/>
 	<key>ShowPaneTitles</key>
 	<true/>
 	<key>SmartPlacement</key>
@@ -1164,6 +1170,6 @@
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>iTerm Version</key>
-	<string>2.0.0.20141103</string>
+	<string>2.1.1</string>
 </dict>
 </plist>
