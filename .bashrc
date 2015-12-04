@@ -3,10 +3,14 @@ if [ -f /usr/local/etc/bash_completion.d/git-prompt.sh ]; then
   . /usr/local/etc/bash_completion.d/git-prompt.sh
 fi
 
+# Set colors to ls command result.
+export CLICOLOR=1
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+
 # Custom bash prompt
 #
 # Includes custom character for the prompt, path, and Git branch name.
-PS1='\n\[\033[0;31m\]→\[\033[00m\] \[\033[0;36m\]\W\[\033[00m\]\[\033[0;33m\]$(__git_ps1 " (%s)")\[\033[00m\] \$ '
+PS1='\n\[\033[0;31m\]→\[\033[00m\] \[\033[0;36m\]\W\[\033[00m\]\[\033[0;33m\]$(__git_ps1 " [%s]")\[\033[00m\] \$ '
 
 # Export environment paths.
 export PATH="/usr/local/bin:$PATH"
