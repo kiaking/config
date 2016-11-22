@@ -1,3 +1,6 @@
+# Set Locale.
+export LANG=en_US.UTF-8
+
 # Get the Git branch.
 if [ -f /usr/local/etc/bash_completion.d/git-prompt.sh ]; then
   . /usr/local/etc/bash_completion.d/git-prompt.sh
@@ -37,6 +40,11 @@ alias phpspec='./vendor/bin/phpspec'
 
 ## Laravel
 alias art='php artisan'
+
+# Homestead
+function homestead() {
+  ( cd ~/Code/homestead && vagrant $* )
+}
 
 # Git auto tab completion
 if [ -f /usr/local/etc/bash_completion.d/git-completion.bash ]; then

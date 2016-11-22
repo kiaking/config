@@ -7,19 +7,24 @@
     // Good looking code.
     "font_face": "Migu 1M",
     "font_size": 16,
-    "font_options": ["gray_antialias"],
+    "font_options": ["gray_antialias", "subpixel_antialias"],
     "line_padding_top": 8,
     "line_padding_bottom": 8,
+    "indent_guide_options":
+    [
+        "draw_normal",
+        "draw_active"
+    ],
 
     // Coding style.
-    "tab_size": 4,
+    "tab_size": 2,
     "translate_tabs_to_spaces": true,
     "trim_trailing_white_space_on_save": true,
     "ensure_newline_at_eof_on_save": true,
     "default_line_ending": "unix",
 
     // System preferences.
-    "line_numbers": false,
+    "line_numbers": true,
     "show_encoding": true,
     "show_line_endings": true,
     "scroll_past_end": true,
