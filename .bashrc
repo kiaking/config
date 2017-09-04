@@ -19,6 +19,8 @@ PS1='\n\[\033[0;31m\]→\[\033[00m\] \[\033[0;36m\]\W\[\033[00m\]\[\033[0;33m\]$
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 export PATH="~/.composer/vendor/bin:$PATH"
+export PATH="./vendor/bin:$PATH"
+export PATH="$(yarn global bin):$PATH"
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 
 # Alias settings.
@@ -29,6 +31,10 @@ alias ll='ls -al'
 
 ## Git commands
 alias g='git'
+alias gf='git fetch --prune'
+alias gp='git pull'
+alias gc='git checkout'
+alias gcb='git checkout -b'
 
 ## Shortcuts
 root='~/Code'
@@ -36,7 +42,10 @@ alias goroot="cd ${root}"
 
 ## Generic tools
 alias phpunit='./vendor/bin/phpunit'
-alias phpspec='./vendor/bin/phpspec'
+alias p=phpunit
+alias pf="phpunit --filter"
+alias dep="./vendor/bin/dep"
+alias shipit='./node_modules/.bin/shipit'
 
 ## Laravel
 alias art='php artisan'

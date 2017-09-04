@@ -1,7 +1,7 @@
 {
     // Theme and scheme.
-    "theme": "Material-Theme.sublime-theme",
-    "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+    "theme": "Material-Theme-Darker.sublime-theme",
+    "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
     "bold_folder_labels": true,
 
     // Good looking code.
@@ -10,11 +10,7 @@
     "font_options": ["gray_antialias", "subpixel_antialias"],
     "line_padding_top": 8,
     "line_padding_bottom": 8,
-    "indent_guide_options":
-    [
-        "draw_normal",
-        "draw_active"
-    ],
+    "indent_guide_options": ["draw_normal", "draw_active"],
 
     // Coding style.
     "tab_size": 2,
