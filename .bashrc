@@ -55,14 +55,21 @@ function homestead() {
   ( cd ~/Code/homestead && vagrant $* )
 }
 
-# Git auto tab completion
+# Auto Completion
+
+## Git tab completion
 if [ -f /usr/local/etc/bash_completion.d/git-completion.bash ]; then
   . /usr/local/etc/bash_completion.d/git-completion.bash
 fi
 
-# NPM auto tab completion
+## NPM tab completion
 if [ -f /usr/local/etc/bash_completion.d/npm ]; then
   . /usr/local/etc/bash_completion.d/npm
+fi
+
+## Docker auto completion
+if [ -f /usr/local/etc/bash_completion.d ]; then
+  . /usr/local/etc/bash_completion.d
 fi
 
 # Refresh rbenv
