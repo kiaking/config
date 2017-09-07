@@ -68,8 +68,8 @@ if [ -f /usr/local/etc/bash_completion.d/npm ]; then
 fi
 
 ## Docker auto completion
-if [ -f /usr/local/etc/bash_completion.d ]; then
-  . /usr/local/etc/bash_completion.d
+if [ -f /usr/local/etc/bash_completion.d/docker ]; then
+  . /usr/local/etc/bash_completion.d/docker
 fi
 
 # Refresh rbenv
