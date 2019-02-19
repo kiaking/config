@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[
+<template>
+  <div class="$1">
+  </div>
+</template>
+
+<script>
+export default {
+  components: {
+
+  }
+}
+</script>
+
+<style lang="postcss" scoped>
+@import "styles/variables";
+
+
+</style>
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>sfc</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.vue</scope>
+</snippet>
